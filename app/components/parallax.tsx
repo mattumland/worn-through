@@ -3,11 +3,17 @@
 import { Parallax } from 'react-scroll-parallax';
 import Image from "next/image";
 import ghosts from "../public/ghosts.webp"
-
-export default function GhostParallax() {
+import Ghost from '../ghost';
+export default function GhostParallax(): React.ReactElement{
   return (
     <div>
       <Parallax
+        className='relative'
+        opacity={[0,1]}
+      >
+        <Ghost />
+      </Parallax>
+      {/* <Parallax
         className='relative'
         speed={-5}
       >
@@ -26,7 +32,7 @@ export default function GhostParallax() {
           alt="A bunch of scary ghosts"
           className='m-auto'
         />
-      </Parallax>
+      </Parallax> */}
       </div>
   );
 }

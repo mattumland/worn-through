@@ -1,9 +1,9 @@
-
-import GhostParallax from "./parallax";
+import GhostParallax from "./components/parallax";
 import Image from "next/image";
 import WTImage from "../public/cropped-sky.webp"
-import logo from "../public/WTsvg.png"
-
+import logo from "../public/record_logo.webp"
+import VideoSection from "./components/videoSection";
+import MusicSection from "./components/musicSection";
 
 export default function Home() {
   return (
@@ -19,14 +19,13 @@ export default function Home() {
                 quality={100}
                 placeholder='blur'
                 fill={true}
-                sizes="(max-width: 768px) 100vw, 33vw"
                 style={{ objectFit: "cover" }}
                 className="-z-1"
-                />
+              />
               <Image
                 src={logo}
                 alt="Worn Through"
-                className='z-1 col-span-1 col-start-1 row-span-1 row-start-1 m-auto mt-20 md:mt-40 md:p-0 px-10'
+                className='z-1 col-span-1 col-start-1 row-span-1 row-start-1 m-auto mt-20 md:mt-40 px-10 lg:max-w-4/5'
               />
             </div>
           </div>
@@ -34,13 +33,8 @@ export default function Home() {
 
       <div className="md:h-screen min-h-[45vh]"></div>
       <GhostParallax />
-      <section className="bg-black min-h-[60vh]">
-          <h2>Stream the album</h2>
-        </section>
-        <section className="bg-black min-h-[60vh]">
-          <h2>Videos</h2>
-        </section>
-
+      <MusicSection />
+      <VideoSection />
       </main>
       <footer className="flex flex-wrap justify-center items-center gap-[24px] row-start-3">
       </footer>
