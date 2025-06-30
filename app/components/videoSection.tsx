@@ -19,8 +19,8 @@ export default function VideoSection(): React.ReactElement {
   const playerClasses = "absolute top-0 left-0"
 
   return (
-    <section className="bg-black py-10">
-      <TitleBar title={"Videos"} />
+    <section className="bg-[#1FB7D4] pb-10">
+      <h2 className="py-10 text-6xl text-center">Videos</h2>
         <div className={outerContainerClasses}>
           <h3 className='mb-3 text-2xl'>Everything's Different Now</h3>
           <div className={containerClasses}>

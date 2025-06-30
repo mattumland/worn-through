@@ -6,6 +6,6 @@ type TitleProps = {
 
 export default function TitleBar({ title }: TitleProps): React.ReactElement {
   return (
-    <h2 className="bg-white mb-5 py-10 text-black text-6xl text-center">{title}</h2>
+    <h2 className="mb-5 py-10 text-6xl text-center">{title}</h2>
   )
 }
