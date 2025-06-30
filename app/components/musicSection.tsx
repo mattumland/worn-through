@@ -57,7 +57,7 @@ export default function MusicSection(): React.ReactElement {
           />
         </a>
       </div>
-      <a className="m-auto md:mb-20 p-10 md:p-0 md:max-w-1/2 hover:underline cursor-pointer transition:all"
+      <a className="m-auto md:mb-20 p-10 md:p-0 md:max-w-1/2 hover:underline cursor-pointer [&>.child]:"
         href="https://www.strangeviewrecords.com/product/worn-through-barely-real-vinyl"
         target="_blank"
         rel="noopener noreferrer"
@@ -68,7 +68,7 @@ export default function MusicSection(): React.ReactElement {
             src={cover}
             alt="A swimming pool filled with ghosts under a full moon. A swan, a bear and man in a night down sit around the pool."
             quality={100}
-            className="hover:scale-102 transition-transform"
+            className="hover:scale-102 transition-transform duration-700 ease-in-out"
           />
         </div>
       </a>
