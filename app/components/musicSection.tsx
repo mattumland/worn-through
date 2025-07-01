@@ -6,6 +6,7 @@ import yt_logo from "../../public/yt_logo.svg"
 import ap_logo from "../../public/ap_logo.svg"
 import sp_logo from "../../public/sp_logo.svg"
 
+
 export default function MusicSection(): React.ReactElement {
   return (
     <section className="flex flex-col bg-[#002C81] text-color-[##E7E7E7]">
