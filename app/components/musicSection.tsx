@@ -63,7 +63,7 @@ export default function MusicSection(): React.ReactElement {
         target="_blank"
         rel="noopener noreferrer"
       >
-        <h3 className="my-3 text-3xl text-center"><span className="italic">Barely Real</span> 12" Vinyl</h3>
+        <h3 className="my-3 text-3xl text-center"><span className="italic">Barely Real</span> 12&quot; Vinyl</h3>
         <div className="overflow-hidden">
           <Image
             src={cover}

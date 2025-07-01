@@ -21,7 +21,7 @@ export default function VideoSection(): React.ReactElement {
     <section className="bg-[#1FB7D4] pb-10">
       <h2 className="py-10 font-semibold text-6xl text-center">Videos</h2>
         <div className={outerContainerClasses}>
-          <h3 className='mb-3 text-2xl'>Everything's Different Now</h3>
+          <h3 className='mb-3 text-2xl'>Everything&apos;s Different Now</h3>
           <div className={containerClasses}>
             <ReactPlayer
               url={everythingPath}
