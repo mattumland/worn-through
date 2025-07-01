@@ -51,26 +51,3 @@ export default function Home() {
     </div>
   );
 }
-/*
-    //   layers={[
-    //     {
-    //       speed: -7,
-    //       children: (
-
-    //           <Image
-    //             src={WTImage}
-    //             alt="Matt, Greg, Sophie, Matt and Nick of Worn Through standing in front of beautiful yellow forsythias with a huge blue sky in the background."
-    //             quality={100}
-    //             // fill
-    //             // sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-    //             placeholder="blur"
-    //             style={{
-    //               objectFit: "cover",
-    //             }}
-    //           />
-    //       )
-
-    //     }
-    //   ]}
-    // >
-*/
