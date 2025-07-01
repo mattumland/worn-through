@@ -10,7 +10,7 @@ import sp_logo from "../../public/sp_logo.svg"
 export default function MusicSection(): React.ReactElement {
   return (
     <section className="flex flex-col bg-[#002C81] text-color-[##E7E7E7]">
-      <h2 className="py-10 text-6xl text-center">Music</h2>
+      <h2 className="py-10 font-semibold text-6xl text-center">Music</h2>
       <div className="flex flex-row gap-5 m-auto mb-10 max-h-10">
         <a
           href="https://wornthrough.bandcamp.com/album/barely-real"
